@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>Formularz zamówienia Nike</title>
+</head>
+<body bgcolor="silver">
+<center>
+    <img src="nike.png" width="150">
+    <h1>Formularz zamówienia</h1>
+    <p>Wypełnij formularz, aby zamówić produkty Nike!</p>
+</center>
+<hr>
+<center>
+    <h2>MENU</h2>
+    <ul>
+        <li><a href="index.html"><font size="5">Strona główna</font></a></li>
+        <li><a href="produkty.html"><font size="5">Nasze produkty</font></a></li>
+        <li><a href="tabela.html"><font size="5">Tabela produktów</font></a></li>
+        <li><a href="formularz.html"><font size="5">Formularz zamówienia</font></a></li>
+        <li><a href="poczta.html"><font size="5">Kontakt</font></a></li>
+    </ul>
+</center>
+<hr>
+<center>
+    <h2>Złóż zamówienie</h2>
+    <form>
+        Imię i nazwisko:<br>
+        <input type="text" name="imie"><br><br>
+        Adres e-mail:<br>
+        <input type="text" name="email"><br><br>
+        Wybierz produkt:<br>
+        <select name="produkt">
+            <option>Buty Nike</option>
+            <option>Koszulka Nike</option>
+            <option>Bluza Nike</option>
+            <option>Spodenki Nike</option>
+        </select><br><br>
+        Rozmiar:<br>
+        <select name="rozmiar">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select><br><br>
+        Liczba sztuk:<br>
+        <input type="number" name="liczba"><br><br>
+        <input type="submit" value="Wyślij zamówienie">
+        <input type="reset" value="Wyczyść formularz">
+    </form>
+</center>
+</body>
+</html>
